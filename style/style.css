@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  /* font-family: "Work Sans", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* first page */
+  #hero{
+    height: 597px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+#hero.hero-content{
+    width: 650px;
+}
+
+.Savor{
+    color: rgb(255, 255, 255);
+}
+
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 20px;
+}
+
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 37px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 12px;
+}
+
+.btn{
+    padding: 12px 18px 16px 20px;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(82, 195, 3);
+border: none;
+}
+
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+/* second page */
+#card-box {
+    width: 800px;
+    margin: 30px auto;
+}
+#card-box .titles .title{
+     
+    color: rgb(16, 16, 16);
+ font-family: Work Sans; 
+font-size: 28px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .titles .sub-title{
+    color: rgb(16, 16, 16);
+ font-family: Work Sans; 
+font-size: 15px;
+font-weight: 450;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+#card-box .contener .title{
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#card-box .contener .box{
+    width: 250px;
+}
+#card-box .contener .box img{
+    width: 100%;
+}
+#card-box .card-contener{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+
+}
+
+
+#box3 {
+    box-sizing: border-box;
+}
+#box3 .image1 img{ 
+    height: 372px;
+    width: 640px;
+
+}
+#box3 {
+    display: flex;
+    justify-content: baseline;
+    
+    
+}
+#box3 .titles{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 110px;
+    
+
+}
+.solobox{
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 57px;
+   letter-spacing: 0%;
+      
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+   padding-top: 50px;
+    
+    
+}
+
+.box{
+    margin-top: 50px;
+}
+
